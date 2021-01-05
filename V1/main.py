@@ -107,7 +107,7 @@ def restart_and_reconnect():
     machine.reset()
 
 def fallback():
-
+    time.sleep(1)
     if sensors.read_temp_dht()+0.2 >= roomtemperature:
         valve.close()
 
