@@ -20,7 +20,7 @@ pin18 = Pin(18, Pin.OUT)
 hbride_enable = Pin(5,Pin.OUT)
 dcdc_enable = Pin(19,Pin.OUT)
 
-def open()
+def open():
     dcdc_enable.value(1)
     time.sleep_ms(250)
     hbride_enable.value(1)
@@ -29,7 +29,7 @@ def open()
     pin22.value(0)
     pin18.value(1)
 
-def close()
+def close():
     dcdc_enable.value(1)
     time.sleep_ms(250)
     hbride_enable.value(1)
