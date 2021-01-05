@@ -7,13 +7,13 @@ Set your pc to a static port:
 
 Open wired settings
 
-![image](https://github.com/silvappeldoorn/OSEM/blob/main/pictures/Screenshot%20from%202020-11-24%2011-56-22.png)
+![image](https://github.com/ytielbeke/OSEM/blob/main/pictures/Screenshot%20from%202020-11-24%2011-56-22.png)
 
 Go to the settings of your wired connection see right.
-![image](https://github.com/silvappeldoorn/OSEM/blob/main/pictures/Screenshot%20from%202020-11-24%2011-57-32.png)
+![image](https://github.com/ytielbeke/OSEM/blob/main/pictures/Screenshot%20from%202020-11-24%2011-57-32.png)
 
 Go to the "IPv4" tab
-![image](https://github.com/silvappeldoorn/OSEM/blob/main/pictures/Screenshot%20from%202020-11-24%2011-57-44.png)
+![image](https://github.com/ytielbeke/OSEM/blob/main/pictures/Screenshot%20from%202020-11-24%2011-57-44.png)
 
 Set the IPv4 Method to Manual
 the address is:
@@ -25,6 +25,6 @@ And the netmask is:
 255.255.255.0
 ```
 
-![image](https://github.com/silvappeldoorn/OSEM/blob/main/pictures/Screenshot%20from%202020-11-24%2012-01-31.png)
+![image](https://github.com/ytielbeke/OSEM/blob/main/pictures/Screenshot%20from%202020-11-24%2012-01-31.png)
 
 Now your IP of your desktop is 192.168.137.1 and you can connect to your raspberry pi
