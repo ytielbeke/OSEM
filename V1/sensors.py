@@ -68,19 +68,24 @@ def read_onewire_temp (all_sensors):
     return all_sensors
 
 
-# read the waterflow sensor
-def read_waterflow (all_sensors):
+#read the waterflow sensor
+def read_waterflow():
     pulsecount = 0
+    liter = 380
     last_value = 1
-    for i in range(1):
+
+    t_end = time.time() + 2
+    while time.time() < t_end:
         value = hallPin.value()
         if value == 0 and last_value == 1:
             pulsecount += 1
             last_value = value
         else:
             last_value = value
-
-    all_sensors["waterflow"] = pulsecount  # adds value of waterflow to dictionary with 'waterflow' as key
+   
+    flow = (pulsecount*30)/liter
+    
+    all_sensors["waterflow"] = flow #adds value of waterflow to dictionary with 'waterflow' as key
     return all_sensors
 
 
