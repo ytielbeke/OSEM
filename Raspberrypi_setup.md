@@ -17,7 +17,7 @@ touch ssh
 
 
 Connect the raspberry pi to a wireless network.
-If you have a ethernet cable you can connect the raspberry pi directly to your router and go to step 2.
+***If you have a ethernet cable you can connect the raspberry pi directly to your router and go to step 2.***
 Go to the rootfs of the sd card and open the 
 
 ```
@@ -36,7 +36,7 @@ network={
  psk="<Password for your wireless LAN>" 
 }
 ```
-make the ethernet port an static ip by opening the following file
+make the ethernet port a static ip by opening the following file
 
 ```
 sudo nano etc/dhcpcd.conf
